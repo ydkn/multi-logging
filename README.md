@@ -28,7 +28,9 @@ logger.info('log message')
 
 tagged_logger = ActiveSupport::TaggedLogging.new(logger)
 
-tagged_logger.info('log message')
+tagged_logger.tagged('foo') do
+  tagged_logger.info('log message')
+end
 ```
 
 ## Contributing
