@@ -1,3 +1,5 @@
+# No longer maintained in favor of [logged](https://github.com/ydkn/logged)
+
 # MultiLogging
 
 Log to multiple destinations.
